@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "miniconda-kurulum-rehberi",
+    "title": "Miniconda Kurulum Rehberi",
+    "author": "Betül Bayram",
+    "publishDate": "Aug, 2025",
+    "coverImage": "/img/blog/covers/miniconda.png",
+    "tags": ["Kurulum", "Yazılım Geliştirme"],
+    "summary": "Miniconda nedir? Ne için kullanılır? Nasıl kullanılır? Bu yazıda sizlerle...",
+    "markdownFile": "/blogs/markdown_blogs/miniconda-kurulum-rehberi.md"
+  },
+  {
+    "slug": "conda-cheatsheet",
+    "title": "Conda Cheat Sheet",
+    "author": "Betül Bayram",
+    "publishDate": "Aug , 2025",
+    "coverImage": "/img/blog/covers/conda_cheatsheet.png",
+    "tags": ["Cheat Sheet"],
+    "summary": "Conda komutları hızlıca erişmek için göz atın...",
+    "markdownFile": "/blogs/markdown_blogs/conda-cheatsheet.md"
+  }
+]

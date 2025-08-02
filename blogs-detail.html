@@ -24,6 +24,11 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
@@ -32,6 +37,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/markdown.css" type="text/css" />
   </head>
 
   <body>
@@ -50,8 +56,8 @@
                 <ul>
                   <li><a href="./index.html">Home</a></li>
                   <li><a href="./about.html">About</a></li>
-                  <li class="active"><a href="./projects.html">Projects</a></li>
-                  <li><a href="./blogs.html">Blogs</a></li>
+                  <li><a href="./projects.html">Projects</a></li>
+                  <li class="active"><a href="./blogs.html">Blogs</a></li>
                   <li><a href="./knowledge_space.html">Knowledge Space</a></li>
                   <li><a href="./contact.html">Contact</a></li>
                 </ul>
@@ -86,8 +92,8 @@
       <ul>
         <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About</a></li>
-        <li><a href="./projects.html"  class="active">Projects</a></li>
-        <li><a href="./blogs.html">Blogs</a></li>
+        <li><a href="./projects.html">Projects</a></li>
+        <li><a href="./blogs.html" class="active">Blogs</a></li>
         <li>
           <a href="./knowledge_space.html">Knowledge Space</a>
         </li>
@@ -113,208 +119,36 @@
     <!-- YENİ: Menu Overlay -->
     <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
 
-    <!-- Breadcrumb Begin -->
-    <div
-      class="breadcrumb-option spad set-bg"
-      data-setbg="img/breadcrumb-bg.jpg"
-    >
+    <section id="blog-hero" class="blog-hero spad set-bg">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <div class="breadcrumb__text">
-              <h2>Projects</h2>
-              <div class="breadcrumb__links">
-                <a href="/index.html">Home</a>
-                <span>Projects</span>
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <div class="blog__hero__text">
+              <h2 id="blog-title"></h2>
+              <ul>
+                <li>by <span id="blog-author"></span></li>
+                <li id="blog-date"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="blog-details spad markdown-content">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <div class="blog__details__content">
+              <div id="blog-content"></div>
+
+              <div class="blog__details__tags" id="blog-tags">
+                <span><i class="fa fa-tag"></i> Tag:</span>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Breadcrumb End -->
-
-    <!-- Portfolio Section Begin -->
-    <section class="portfolio spad">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="portfolio__filter">
-              <li class="active" data-filter="*">All</li>
-              <li data-filter=".ai">Artificial Intelligence</li>
-              <li data-filter=".wd">Web Development</li>
-              <li data-filter=".gd">Game Development</li>
-              <li data-filter=".robotics">Robotics</li>
-              <li data-filter=" .health">Healthcare</li>
-            </ul>
-          </div>
-        </div>
-        <div class="row portfolio__gallery">
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai robotics">
-            <div class="portfolio__item">
-              <a
-                href="https://sites.google.com/view/yzt-talos-otonom-arac-takimi"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/1.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Self Driving Car</h4>
-                <ul>
-                  <li>Artificial Intelligence</li>
-                  <li>Robotics</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai gd">
-            <div class="portfolio__item">
-              <a
-                href="https://github.com/betulbayram/UzayOyunu_RL"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/2.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Space Invaders Game</h4>
-                <ul>
-                  <li>Artificial Intelligence</li>
-                  <li>Game Development</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai">
-            <div class="portfolio__item">
-              <a
-                href="https://github.com/betulbayram/e2e-ml-project"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/3.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Root Cause Analysis</h4>
-                <ul>
-                  <li>Artificial Intelligence</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai">
-            <div class="portfolio__item">
-              <div
-                class="portfolio__item__video set-bg"
-                data-setbg="img/portfolio/4.png"
-              ></div>
-
-              <div class="portfolio__item__text">
-                <h4>Anomaly Face Recognition</h4>
-                <ul>
-                  <li>Artificial Intelligence</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix gd">
-            <div class="portfolio__item">
-              <a href="https://github.com/Traffic-Monster" target="_blank">
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/5.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>3D Car Racing Game</h4>
-                <ul>
-                  <li>Game Development</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
-            <div class="portfolio__item">
-              <a
-                href="https://github.com/betulbayram/e-commerce-workshop"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/6.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>E-Commerce Website</h4>
-                <ul>
-                  <li>Web Development</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai health">
-            <div class="portfolio__item">
-              <a
-                href="https://sites.google.com/view/yzt-biotolia"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/7.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Lung Cancer Detection</h4>
-                <ul>
-                  <li>Artificial Intelligence</li>
-                  <li>Healthcare</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
-            <div class="portfolio__item">
-              <a href="#" target="_blank">
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/8.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Öz Bayramoğlu Otomotiv</h4>
-                <ul>
-                  <li>Web Development</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
-            <div class="portfolio__item">
-              <a href="https://gnacarbon.com/" target="_blank">
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/9.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>GNA CARBON</h4>
-                <ul>
-                  <li>Web Development</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Portfolio Section End -->
 
     <footer class="footer">
       <div class="container">
@@ -347,7 +181,8 @@
     <script src="js/jquery.slicknav.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="js/render-blog.js"></script>
     <script>
       const mobileMenuToggle = document.getElementById("mobileMenuToggle");
       const modernMobileMenu = document.getElementById("modernMobileMenu");

@@ -1384,11 +1384,14 @@ ol {
   position: relative;
   z-index: 1;
   margin-bottom: 45px;
+  transition: all 0.3s ease;
 }
 .blog__item:hover {
   border: 1px solid transparent !important;
-  background: url(../img/blog/blog-2.jpg) no-repeat;
+  background-image: var(--bg-image);
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .blog__item:hover ul li {
   color: #ffffff;
