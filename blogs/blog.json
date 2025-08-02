@@ -5,7 +5,10 @@
     "author": "Betül Bayram",
     "publishDate": "Aug, 2025",
     "coverImage": "/img/blog/covers/miniconda.png",
-    "tags": ["Kurulum", "Yazılım Geliştirme"],
+    "tags": [
+      { "name": "Kurulum", "filterClass": "kurulum" },
+      { "name": "Yazılım Geliştirme", "filterClass": "yazilim_gelistirme" }
+    ],
     "summary": "Miniconda nedir? Ne için kullanılır? Nasıl kullanılır? Bu yazıda sizlerle...",
     "markdownFile": "/blogs/markdown_blogs/miniconda-kurulum-rehberi.md"
   },
@@ -15,7 +18,9 @@
     "author": "Betül Bayram",
     "publishDate": "Aug , 2025",
     "coverImage": "/img/blog/covers/conda_cheatsheet.png",
-    "tags": ["Cheat Sheet"],
+    "tags": [
+      { "name": "Cheat Sheet", "filterClass": "cheat_sheet" }
+    ],
     "summary": "Conda komutları hızlıca erişmek için göz atın...",
     "markdownFile": "/blogs/markdown_blogs/conda-cheatsheet.md"
   }

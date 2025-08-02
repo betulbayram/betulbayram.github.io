@@ -1,6 +1,5 @@
 document.addEventListener("DOMContentLoaded", async function () {
   try {
-    // 1. URL'den hangi blog yazısının istendiğini anla ('slug' parametresini al)
     const urlParams = new URLSearchParams(window.location.search);
     const postSlug = urlParams.get("slug");
 
@@ -9,12 +8,10 @@ document.addEventListener("DOMContentLoaded", async function () {
       return;
     }
 
-    // 2. Tüm blog verilerini içeren ana JSON dosyasını çek
     const responseBlogs = await fetch("/blogs/blog.json");
     if (!responseBlogs.ok) throw new Error("Blog verileri yüklenemedi.");
     const allPosts = await responseBlogs.json();
 
-    // 3. URL'deki slug'a uygun olan blog yazısını bul
     const blogPostData = allPosts.find((post) => post.slug === postSlug);
 
     if (!blogPostData) {
@@ -22,12 +19,10 @@ document.addEventListener("DOMContentLoaded", async function () {
       return;
     }
 
-    // 4. İlgili Markdown dosyasının içeriğini çek
     const responseMarkdown = await fetch(blogPostData.markdownFile);
     if (!responseMarkdown.ok) throw new Error("Blog içeriği yüklenemedi.");
     const markdownContent = await responseMarkdown.text();
 
-    // 5. Tüm veriler başarıyla çekildikten sonra sayfayı doldur
     renderPage(blogPostData, markdownContent);
   } catch (error) {
     console.error("Hata:", error);
@@ -36,14 +31,12 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 
 /**
- * Gelen verilere göre HTML sayfasını güncelleyen fonksiyon
- * @param {object} postData - Blog yazısının JSON'dan gelen meta verileri
- * @param {string} markdownText - Blog yazısının .md dosyasından gelen metin içeriği
+ * @param {object} postData
+ * @param {string} markdownText
  */
 function renderPage(postData, markdownText) {
   document.title = postData.title + " | betulbayram";
 
-  // Kapak fotoğrafını ayarla
   const heroElement = document.getElementById("blog-hero");
   if (heroElement) {
     const imageUrl = postData.coverImage;
@@ -53,22 +46,22 @@ function renderPage(postData, markdownText) {
     ).style.backgroundImage = `url("${imageUrl}")`;
   }
 
-  // Metin alanlarını doldur
   document.getElementById("blog-title").innerText = postData.title;
   document.getElementById("blog-author").innerText = postData.author;
   document.getElementById("blog-date").innerText = postData.publishDate;
 
-  // Markdown içeriğini HTML'e çevir ve yerleştir
   const blogContentContainer = document.getElementById("blog-content");
   blogContentContainer.innerHTML = marked.parse(markdownText);
 
-  // Etiketleri oluştur
   const tagsContainer = document.getElementById("blog-tags");
   tagsContainer.innerHTML = '<span><i class="fa fa-tag"></i> Tag:</span>';
+
   postData.tags.forEach((tag) => {
     const tagElement = document.createElement("a");
-    tagElement.href = `/tags/${tag.toLowerCase()}`;
-    tagElement.innerText = tag;
+
+    tagElement.innerText = tag.name;
+    tagElement.href = `blogs.html?filter=${tag.filterClass}`;
+
     tagsContainer.appendChild(tagElement);
   });
 }

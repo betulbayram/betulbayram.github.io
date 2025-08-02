@@ -1,47 +1,70 @@
 document.addEventListener("DOMContentLoaded", async function () {
   const blogContainer = document.getElementById("blog-list-container");
+  const filterContainer = document.getElementById("blog-filter-container");
 
-  if (!blogContainer) {
-    console.error("Blog listesi için taşıyıcı alan bulunamadı.");
+  if (!blogContainer || !filterContainer) {
+    console.error("Gerekli taşıyıcı alanlar (blog veya filtre) bulunamadı.");
     return;
   }
 
   try {
-    // 1. Tüm blog verilerini içeren JSON dosyasını çek
     const response = await fetch("/blogs/blog.json");
     if (!response.ok) throw new Error("Blog verileri yüklenemedi.");
-
     const allPosts = await response.json();
 
-    // Eğer hiç post yoksa bilgi mesajı göster
-    if (allPosts.length === 0) {
-      blogContainer.innerHTML = "<p>Gösterilecek blog yazısı bulunamadı.</p>";
-      return;
-    }
-
-    // Taşıyıcıyı temizle (içinde "loading" vs. varsa diye)
-    blogContainer.innerHTML = "";
-
-    // 2. Her bir post için bir HTML kartı oluştur ve sayfaya ekle
-    allPosts.forEach((post) => {
-      // post.coverImage'ın JSON'da tanımlı olduğundan emin olun
-      const coverImageUrl = post.coverImage || ""; // Eğer resim yoksa boş string ata
-
-      const blogCardHTML = `
-    <div class="col-lg-4 col-md-6 col-sm-6">
-        <div class="blog__item" style="--bg-image: url('${coverImageUrl}')">
-            <h4>${post.title}</h4>
-            <ul>
-                <li>${post.publishDate}</li>
-            </ul>
-            <p>${post.summary}</p>
-            <a href="blogs-detail.html?slug=${post.slug}">Read more <span class="arrow_right"></span></a>
-        </div>
-    </div>
-  `;
-      // Oluşturulan kartı ana taşıyıcının içine ekle
-      blogContainer.innerHTML += blogCardHTML;
+    const allTags = new Map();
+    allPosts.forEach(post => {
+      post.tags.forEach(tag => {
+        if (!allTags.has(tag.filterClass)) {
+          allTags.set(tag.filterClass, tag.name);
+        }
+      });
     });
+
+    let filterButtonsHTML = '<li class="active" data-filter="*">All</li>';
+    allTags.forEach((name, filterClass) => {
+      filterButtonsHTML += `<li data-filter=".${filterClass}">${name}</li>`;
+    });
+    filterContainer.innerHTML = filterButtonsHTML;
+
+    // =================================================================
+    // === YENİ EKLENEN BÖLÜM: Aktif Filtre Butonu Dinamik Stili ===
+    // =================================================================
+    const filterButtons = filterContainer.querySelectorAll('li');
+
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // 1. Önce tüm butonlardan 'active' sınıfını kaldır
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        
+        // 2. Sadece tıklanan butona 'active' sınıfını ekle
+        this.classList.add('active');
+      });
+    });
+    // =================================================================
+    // === YENİ BÖLÜM SONU ===
+    // =================================================================
+
+    let blogCardsHTML = "";
+    allPosts.forEach((post) => {
+      const postFilterClasses = post.tags.map(tag => tag.filterClass).join(' ');
+      blogCardsHTML += `
+        <div class="col-lg-4 col-md-6 col-sm-6 mix ${postFilterClasses}">
+            <div class="blog__item" style="--bg-image: url('${post.coverImage || ''}')">
+                <h4>${post.title}</h4>
+                <ul>
+                    <li>${post.publishDate}</li>
+                </ul>
+                <p>${post.summary}</p>
+                <a href="blogs-detail.html?slug=${post.slug}">Read more <span class="arrow_right"></span></a>
+            </div>
+        </div>
+      `;
+    });
+    blogContainer.innerHTML = blogCardsHTML;
+
+    var mixer = mixitup(blogContainer);
+
   } catch (error) {
     console.error("Hata:", error);
     blogContainer.innerHTML = `<p>Blog yazıları yüklenirken bir hata oluştu: ${error.message}</p>`;
