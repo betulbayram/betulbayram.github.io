@@ -26,25 +26,14 @@ document.addEventListener("DOMContentLoaded", async function () {
       filterButtonsHTML += `<li data-filter=".${filterClass}">${name}</li>`;
     });
     filterContainer.innerHTML = filterButtonsHTML;
-
-    // =================================================================
-    // === YENİ EKLENEN BÖLÜM: Aktif Filtre Butonu Dinamik Stili ===
-    // =================================================================
     const filterButtons = filterContainer.querySelectorAll('li');
 
     filterButtons.forEach(button => {
       button.addEventListener('click', function() {
-        // 1. Önce tüm butonlardan 'active' sınıfını kaldır
         filterButtons.forEach(btn => btn.classList.remove('active'));
-        
-        // 2. Sadece tıklanan butona 'active' sınıfını ekle
         this.classList.add('active');
       });
     });
-    // =================================================================
-    // === YENİ BÖLÜM SONU ===
-    // =================================================================
-
     let blogCardsHTML = "";
     allPosts.forEach((post) => {
       const postFilterClasses = post.tags.map(tag => tag.filterClass).join(' ');

@@ -1,7 +1,7 @@
 [
   {
     "slug": "miniconda-kurulum-rehberi",
-    "title": "Miniconda Kurulum Rehberi",
+    "title": "Miniconda Kurulum",
     "author": "Betül Bayram",
     "publishDate": "Aug, 2025",
     "coverImage": "/img/blog/covers/miniconda.png",
@@ -9,7 +9,7 @@
       { "name": "Kurulum", "filterClass": "kurulum" },
       { "name": "Yazılım Geliştirme", "filterClass": "yazilim_gelistirme" }
     ],
-    "summary": "Miniconda nedir? Ne için kullanılır? Nasıl kullanılır? Bu yazıda sizlerle...",
+    "summary": "Anaconda ve Miniconda arasındaki farkları açıklayarak, projeleriniz için neden  Miniconda'yı tercih etmeniz gerektiğini anlatır. Adım adım talimatlarla farklı işletim sistemlerine kurulumu göstererek, temiz ve yönetilebilir geliştirme ortamları oluşturmanızı sağlar.",
     "markdownFile": "/blogs/markdown_blogs/miniconda-kurulum-rehberi.md"
   },
   {
@@ -21,7 +21,19 @@
     "tags": [
       { "name": "Cheat Sheet", "filterClass": "cheat_sheet" }
     ],
-    "summary": "Conda komutları hızlıca erişmek için göz atın...",
+    "summary": "Bu hızlı başvuru rehberi, projeleriniz için sanal ortamlar ve paketleri yönetirken en sık ihtiyaç duyacağınız temel conda komutlarını bir araya getiriyor. Ortam oluşturmaktan paket yüklemeye ve projelerinizi paylaşmaya kadar tüm kritik işlemleri kolayca kopyalayıp kullanarak geliştirme sürecinizi hızlandırın.",
     "markdownFile": "/blogs/markdown_blogs/conda-cheatsheet.md"
+  },
+  {
+    "slug": "cuda-cudnn-installation",
+    "title": "Cuda cuDNN Kurulum",
+    "author": "Betül Bayram",
+    "publishDate": "Aug , 2025",
+    "coverImage": "/img/blog/covers/cuda_cudnn_installation.png",
+    "tags": [
+      { "name": "Kurulum", "filterClass": "kurulum" }
+    ],
+    "summary": "PyTorch ile GPU hızlandırmasını etkinleştirmek için bu rehber, doğru CUDA ve cuDNN sürümlerini Windows'a kurma adımlarını özetler. Sürüm seçimi, kurulum, dosya taşıma ve PyTorch entegrasyonu sonrası yapacağınız basit bir test ile sisteminizi derin öğrenmeye hazır hale getirebilirsiniz.",
+    "markdownFile": "/blogs/markdown_blogs/cuda-cudnn-kurulum.md"
   }
 ]

@@ -1463,6 +1463,12 @@ ol {
   line-height: 47px;
   text-transform: uppercase;
   margin-bottom: 12px;
+  text-shadow: 
+    0 0 5px #fff,             
+    0 0 10px #fff,          
+    0 0 20px #400366,        
+    0 0 30px #4e047c,            /* Genişleyen mor ışıltı */
+    0 0 40px #7f05ca;            /* En dıştaki dağınık mor ışıltı */
 }
 .blog__hero__text ul li {
   font-size: 14px;
