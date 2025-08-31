@@ -35,5 +35,17 @@
     ],
     "summary": "PyTorch ile GPU hızlandırmasını etkinleştirmek için bu rehber, doğru CUDA ve cuDNN sürümlerini Windows'a kurma adımlarını özetler. Sürüm seçimi, kurulum, dosya taşıma ve PyTorch entegrasyonu sonrası yapacağınız basit bir test ile sisteminizi derin öğrenmeye hazır hale getirebilirsiniz.",
     "markdownFile": "/blogs/markdown_blogs/cuda-cudnn-kurulum.md"
+  },
+  {
+    "slug": "docker-ollama-gpu",
+    "title": "Docker ile GPU Destekli Ollama Kurulumu",
+    "author": "Betül Bayram",
+    "publishDate": "Aug , 2025",
+    "coverImage": "/img/blog/covers/ollama-docker-gpu.png",
+    "tags": [
+      { "name": "Kurulum", "filterClass": "kurulum" }
+    ],
+    "summary": "Windows'ta Docker kurarak NVIDIA GPU'nuzu Ollama'ya nasıl tanıtacağınızı adım adım gösterir. Basit bir Docker komutuyla GPU hızlandırmalı bir konteyner başlatabilir ve büyük dil modellerini yerel makinenizde yüksek performansla çalıştırabilirsiniz.",
+    "markdownFile": "/blogs/markdown_blogs/docker-ollama-gpu.md"
   }
 ]
