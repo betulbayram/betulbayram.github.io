@@ -47,5 +47,17 @@
     ],
     "summary": "Windows'ta Docker kurarak NVIDIA GPU'nuzu Ollama'ya nasıl tanıtacağınızı adım adım gösterir. Basit bir Docker komutuyla GPU hızlandırmalı bir konteyner başlatabilir ve büyük dil modellerini yerel makinenizde yüksek performansla çalıştırabilirsiniz.",
     "markdownFile": "/blogs/markdown_blogs/docker-ollama-gpu.md"
+  },
+  {
+    "slug": "docker-cheatsheet",
+    "title": "Docker Cheat Sheet",
+    "author": "Betül Bayram",
+    "publishDate": "Sep , 2025",
+    "coverImage": "/img/blog/covers/docker_cheatsheet.png",
+    "tags": [
+      { "name": "Kurulum", "filterClass": "kurulum" }
+    ],
+    "summary": "Bu blog Docker ve Docker Compose'un en temel komutlarını hızlıca bulup kullanmanız için tasarlanmıştır. Konteyner ve imaj yönetiminden sistem temizliğine kadar, geliştirme sürecinizi hızlandıracak tüm kritik komutları tek bir yerde sunar. Kopyalayıp yapıştırarak projelerinizde hemen kullanabilirsiniz.",
+    "markdownFile": "/blogs/markdown_blogs/docker-cheatsheet.md"
   }
 ]
