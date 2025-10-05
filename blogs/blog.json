@@ -18,9 +18,7 @@
     "author": "Betül Bayram",
     "publishDate": "Aug , 2025",
     "coverImage": "/img/blog/covers/conda_cheatsheet.png",
-    "tags": [
-      { "name": "Cheat Sheet", "filterClass": "cheat_sheet" }
-    ],
+    "tags": [{ "name": "Cheat Sheet", "filterClass": "cheat_sheet" }],
     "summary": "Bu hızlı başvuru rehberi, projeleriniz için sanal ortamlar ve paketleri yönetirken en sık ihtiyaç duyacağınız temel conda komutlarını bir araya getiriyor. Ortam oluşturmaktan paket yüklemeye ve projelerinizi paylaşmaya kadar tüm kritik işlemleri kolayca kopyalayıp kullanarak geliştirme sürecinizi hızlandırın.",
     "markdownFile": "/blogs/markdown_blogs/conda-cheatsheet.md"
   },
@@ -30,9 +28,7 @@
     "author": "Betül Bayram",
     "publishDate": "Aug , 2025",
     "coverImage": "/img/blog/covers/cuda_cudnn_installation.png",
-    "tags": [
-      { "name": "Kurulum", "filterClass": "kurulum" }
-    ],
+    "tags": [{ "name": "Kurulum", "filterClass": "kurulum" }],
     "summary": "PyTorch ile GPU hızlandırmasını etkinleştirmek için bu rehber, doğru CUDA ve cuDNN sürümlerini Windows'a kurma adımlarını özetler. Sürüm seçimi, kurulum, dosya taşıma ve PyTorch entegrasyonu sonrası yapacağınız basit bir test ile sisteminizi derin öğrenmeye hazır hale getirebilirsiniz.",
     "markdownFile": "/blogs/markdown_blogs/cuda-cudnn-kurulum.md"
   },
@@ -42,9 +38,7 @@
     "author": "Betül Bayram",
     "publishDate": "Aug , 2025",
     "coverImage": "/img/blog/covers/ollama-docker-gpu.png",
-    "tags": [
-      { "name": "Kurulum", "filterClass": "kurulum" }
-    ],
+    "tags": [{ "name": "Kurulum", "filterClass": "kurulum" }],
     "summary": "Windows'ta Docker kurarak NVIDIA GPU'nuzu Ollama'ya nasıl tanıtacağınızı adım adım gösterir. Basit bir Docker komutuyla GPU hızlandırmalı bir konteyner başlatabilir ve büyük dil modellerini yerel makinenizde yüksek performansla çalıştırabilirsiniz.",
     "markdownFile": "/blogs/markdown_blogs/docker-ollama-gpu.md"
   },
@@ -54,10 +48,86 @@
     "author": "Betül Bayram",
     "publishDate": "Sep , 2025",
     "coverImage": "/img/blog/covers/docker_cheatsheet.png",
-    "tags": [
-      { "name": "Kurulum", "filterClass": "kurulum" }
-    ],
+    "tags": [{ "name": "Kurulum", "filterClass": "kurulum" }],
     "summary": "Bu blog Docker ve Docker Compose'un en temel komutlarını hızlıca bulup kullanmanız için tasarlanmıştır. Konteyner ve imaj yönetiminden sistem temizliğine kadar, geliştirme sürecinizi hızlandıracak tüm kritik komutları tek bir yerde sunar. Kopyalayıp yapıştırarak projelerinizde hemen kullanabilirsiniz.",
     "markdownFile": "/blogs/markdown_blogs/docker-cheatsheet.md"
+  },
+  {
+    "slug": "aws-clf-c02-part1-konu1",
+    "title": "CLF-C02 Part 1 Konu 1 - Bulut Bilişime Giriş",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws1.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bulut bilişimin temellerini ve AWS'nin sunduğu temel hizmetleri kapsayan bu blog serisinin ilk bölümüdür. Bulutun avantajlarını, temel kavramları ve AWS'nin küresel altyapısını öğrenerek bulut bilişim dünyasına sağlam bir giriş yapın.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu1.md"
+  },
+  {
+    "slug": "aws-clf-c02-part1-konu2",
+    "title": "CLF-C02 Part 1 Konu 2 - Bazı Temel Kavramlar",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws1.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bulut bilişimde bazı temel kavramları ve AWS'nin sunduğu hizmetleri kapsayan bu blog serisinin ikinci bölümüdür. Web siteleri nasıl çalışır, IT terminolojisi ve AWS'nin temel hizmetleri hakkında bilgi edinerek bulut bilişim dünyasında sağlam bir temel oluşturun.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu2.md"
+  },
+  {
+    "slug": "aws-clf-c02-part1-konu3",
+    "title": "CLF-C02 Part 1 Konu 3 - Bulut Bilişimin Temelleri",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws1.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bulut bilişimin temel özelliklerini ve AWS'nin sunduğu avantajları kapsayan bu blog serisinin üçüncü bölümüdür. Bulutun esnekliği, ölçeklenebilirliği ve maliyet etkinliği gibi kritik kavramları öğrenerek bulut bilişim dünyasında derinlemesine bilgi edinin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu3.md"
+  },
+  {
+    "slug": "aws-clf-c02-part1-konu4",
+    "title": "CLF-C02 Part 1 Konu 4 - Bulut Modelleri ve Fiyatlandırma",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws1.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bulut bilişim modellerini ve AWS'nin fiyatlandırma stratejilerini kapsayan bu blog serisinin dördüncü bölümüdür. Hizmet modelleri, dağıtım modelleri ve maliyet yönetimi hakkında bilgi edinerek bulut bilişim dünyasında sağlam bir anlayış geliştirin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu4.md"
+  },
+  {
+    "slug": "aws-clf-c02-part1-konu5",
+    "title": "CLF-C02 Part 1 Konu 5 - AWS Global Altyapısı ve Bölge Seçimi",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws1.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için AWS'nin küresel altyapısını ve bölge seçim stratejilerini kapsayan bu blog serisinin beşinci bölümüdür. AWS'nin veri merkezleri, bölgeleri ve kullanılabilirlik alanları hakkında bilgi edinerek, uygulamalarınızı en uygun şekilde dağıtmayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu5.md"
+  },
+  {
+    "slug": "aws-clf-c02-part1-konu6",
+    "title": "CLF-C02 Part 1 Konu 6 - AWS Konsolu, Sorumluluk Modeli ve Politikalar",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws1.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için AWS Yönetim Konsolu, paylaşılan sorumluluk modeli ve temel güvenlik politikalarını kapsayan bu blog serisinin altıncı bölümüdür. AWS'nin kullanıcı arayüzünü nasıl kullanacağınızı, güvenlik sorumluluklarını ve politika yönetimini öğrenerek bulut ortamınızı güvenli ve verimli bir şekilde yönetin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu6.md"
   }
 ]
