@@ -1463,12 +1463,8 @@ ol {
   line-height: 47px;
   text-transform: uppercase;
   margin-bottom: 12px;
-  text-shadow: 
-    0 0 5px #fff,             
-    0 0 10px #fff,          
-    0 0 20px #400366,        
-    0 0 30px #4e047c,            /* Genişleyen mor ışıltı */
-    0 0 40px #7f05ca;            /* En dıştaki dağınık mor ışıltı */
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #400366, 0 0 30px #4e047c,
+    /* Genişleyen mor ışıltı */ 0 0 40px #7f05ca; /* En dıştaki dağınık mor ışıltı */
 }
 .blog__hero__text ul li {
   font-size: 14px;
@@ -2466,4 +2462,45 @@ ol {
 .mobile-menu-overlay.active {
   opacity: 1;
   visibility: visible;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  gap: 8px;
+}
+
+.pagination-container a {
+  display: inline-block;
+  padding: 10px 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: transparent;
+
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  color: #adadad;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 14px;
+}
+
+.pagination-container a.active {
+  background-color: #00bfe7;
+  border-color: #00bfe7;
+  color: #ffffff;
+  cursor: default;
+}
+
+.pagination-container a:not(.active):hover {
+  background-color: rgba(0, 191, 231, 0.15);
+  border-color: #00bfe7;
+  color: #ffffff;
+}
+
+.pagination-container .arrow {
+  font-size: 16px;
 }
