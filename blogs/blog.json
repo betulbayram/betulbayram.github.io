@@ -39,6 +39,7 @@
     "publishDate": "Aug , 2025",
     "coverImage": "/img/blog/covers/ollama-docker-gpu.png",
     "tags": [{ "name": "Kurulum", "filterClass": "kurulum" }],
+    "series": "Docker",
     "summary": "Windows'ta Docker kurarak NVIDIA GPU'nuzu Ollama'ya nasıl tanıtacağınızı adım adım gösterir. Basit bir Docker komutuyla GPU hızlandırmalı bir konteyner başlatabilir ve büyük dil modellerini yerel makinenizde yüksek performansla çalıştırabilirsiniz.",
     "markdownFile": "/blogs/markdown_blogs/docker-ollama-gpu.md"
   },
@@ -49,6 +50,7 @@
     "publishDate": "Sep , 2025",
     "coverImage": "/img/blog/covers/docker_cheatsheet.png",
     "tags": [{ "name": "Kurulum", "filterClass": "kurulum" }],
+    "series": "Docker",
     "summary": "Bu blog Docker ve Docker Compose'un en temel komutlarını hızlıca bulup kullanmanız için tasarlanmıştır. Konteyner ve imaj yönetiminden sistem temizliğine kadar, geliştirme sürecinizi hızlandıracak tüm kritik komutları tek bir yerde sunar. Kopyalayıp yapıştırarak projelerinizde hemen kullanabilirsiniz.",
     "markdownFile": "/blogs/markdown_blogs/docker-cheatsheet.md"
   },
@@ -62,6 +64,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 1",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bulut bilişimin temellerini ve AWS'nin sunduğu temel hizmetleri kapsayan bu blog serisinin ilk bölümüdür. Bulutun avantajlarını, temel kavramları ve AWS'nin küresel altyapısını öğrenerek bulut bilişim dünyasına sağlam bir giriş yapın.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu1.md"
   },
@@ -75,6 +78,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 1",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bulut bilişimde bazı temel kavramları ve AWS'nin sunduğu hizmetleri kapsayan bu blog serisinin ikinci bölümüdür. Web siteleri nasıl çalışır, IT terminolojisi ve AWS'nin temel hizmetleri hakkında bilgi edinerek bulut bilişim dünyasında sağlam bir temel oluşturun.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu2.md"
   },
@@ -88,6 +92,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 1",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bulut bilişimin temel özelliklerini ve AWS'nin sunduğu avantajları kapsayan bu blog serisinin üçüncü bölümüdür. Bulutun esnekliği, ölçeklenebilirliği ve maliyet etkinliği gibi kritik kavramları öğrenerek bulut bilişim dünyasında derinlemesine bilgi edinin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu3.md"
   },
@@ -101,6 +106,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 1",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bulut bilişim modellerini ve AWS'nin fiyatlandırma stratejilerini kapsayan bu blog serisinin dördüncü bölümüdür. Hizmet modelleri, dağıtım modelleri ve maliyet yönetimi hakkında bilgi edinerek bulut bilişim dünyasında sağlam bir anlayış geliştirin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu4.md"
   },
@@ -114,6 +120,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 1",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için AWS'nin küresel altyapısını ve bölge seçim stratejilerini kapsayan bu blog serisinin beşinci bölümüdür. AWS'nin veri merkezleri, bölgeleri ve kullanılabilirlik alanları hakkında bilgi edinerek, uygulamalarınızı en uygun şekilde dağıtmayı öğrenin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu5.md"
   },
@@ -127,6 +134,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 1",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için AWS Yönetim Konsolu, paylaşılan sorumluluk modeli ve temel güvenlik politikalarını kapsayan bu blog serisinin altıncı bölümüdür. AWS'nin kullanıcı arayüzünü nasıl kullanacağınızı, güvenlik sorumluluklarını ve politika yönetimini öğrenerek bulut ortamınızı güvenli ve verimli bir şekilde yönetin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu6.md"
   },
@@ -140,6 +148,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 2",
     "summary": "AWS Certified Cloud Practictioner (CLF-C02) sertifikasına hazırlık için AWS Identity and Access Management (IAM) hizmetini öğrenmeye başlıyoruz. IAM'in temel kavramlarını, kullanıcı ve grup yönetimini, roller ve politikalar oluşturmayı öğrenerek AWS kaynaklarınızı güvenli bir şekilde yönetin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu1.md"
   },
@@ -153,6 +162,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 2",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için IAM izinlerini ve politikalarını derinlemesine inceleyerek, AWS kaynaklarına erişimi nasıl yöneteceğinizi öğreniyoruz. Politika türleri, en iyi uygulamalar ve gerçek dünya senaryoları ile IAM'in güvenlik yönetimindeki kritik rolünü kavrayın.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu2.md"
   },
@@ -166,6 +176,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 2",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için IAM erişim yöntemlerini ve güvenlik katmanlarını öğreniyoruz. Erişim türleri, çok faktörlü kimlik doğrulama (MFA) ve en iyi güvenlik uygulamaları ile AWS ortamınızı koruma stratejilerinizi güçlendirin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu3.md"
   },
@@ -179,6 +190,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 2",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için programatik erişim yöntemlerini ve IAM güvenlik araçlarını öğreniyoruz. Erişim anahtarları, AWS CLI, SDK'lar ve IAM Access Analyzer gibi araçlarla AWS kaynaklarınıza güvenli ve verimli bir şekilde erişmeyi ve yönetmeyi öğrenin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu4.md"
   },
@@ -192,6 +204,7 @@
       { "name": "AWS", "filterClass": "aws" },
       { "name": "Cloud", "filterClass": "cloud" }
     ],
+    "series": "AWS CLF-C02 - Part 2",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için IAM en iyi uygulamalarını ve bu bölümün özetini sunuyoruz. En az ayrıcalık prensibi, düzenli denetimler ve güvenlik araçları ile AWS ortamınızı güvenli tutmanın yollarını öğrenin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu5.md"
   }

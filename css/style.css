@@ -2504,3 +2504,232 @@ ol {
 .pagination-container .arrow {
   font-size: 16px;
 }
+
+.blog__sidebar {
+  margin-bottom: 30px;
+}
+
+.blog__sidebar h4 {
+  color: #ffffff;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.series-list {
+  list-style: none;
+  padding: 0;
+}
+
+.series-list li {
+  color: #adadad;
+  cursor: pointer;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s;
+}
+
+.series-list li:hover,
+.series-list li.active {
+  color: #ca1818;
+}
+
+/* =================================
+   Blog Sayfası Sidebar Stilleri
+   ================================= */
+
+/* Sidebar Genel Konteyner */
+.blog__sidebar {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+}
+
+/* Sidebar Başlığı */
+.blog__sidebar h4 {
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #00bfe7; /* Ana vurgu rengiyle alt çizgi */
+  letter-spacing: 1px;
+}
+
+/* Seri Listesi (ul) */
+.series-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Seri Listesi Öğeleri (li) */
+.series-list li {
+  color: #adadad; /* Sitenizin ikincil metin rengi */
+  cursor: pointer;
+  padding: 12px 15px;
+  border: 1px solid transparent; /* Başlangıçta görünmez kenarlık */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Ayırıcı çizgi */
+  transition: all 0.3s ease;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 15px;
+  border-radius: 3px;
+}
+
+/* Son öğenin altındaki çizgiyi kaldır */
+.series-list li:last-child {
+  border-bottom: none;
+}
+
+/* Fare ile üzerine gelince */
+.series-list li:hover {
+  color: #ffffff; /* Ana metin rengi */
+  background-color: rgba(0, 191, 231, 0.1); /* Vurgu renginin hafif transparan hali */
+  border-color: rgba(0, 191, 231, 0.2);
+}
+
+/* Aktif (seçili) olan seri */
+.series-list li.active {
+  color: #ffffff;
+  background-color: #00bfe7; /* Ana vurgu rengi */
+  border-color: #00bfe7;
+  font-weight: 700; /* Daha belirgin olması için */
+}
+
+/* =================================
+   Blog Kartı Stilleri (Güncellenmiş)
+   ================================= */
+
+.blog__item {
+  border: 1px solid #222222;
+  padding: 40px 48px 35px 30px;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 45px;
+  transition: all 0.3s ease;
+  height: 330px;
+  /* YENİ EKLENEN KODLAR */
+  display: flex; /* İçeriği esnek kutu modeline göre hizalamak için */
+  flex-direction: column; /* İçeriği dikeyde sıralamak için (başlık, tarih, özet, link) */
+}
+
+.blog__item:hover {
+  border: 1px solid transparent !important;
+  background-image: var(--bg-image);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.blog__item:hover ul li {
+  color: #ffffff;
+}
+
+.blog__item:hover p {
+  color: #ffffff;
+}
+
+.blog__item h4 {
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 31px;
+  margin-bottom: 18px;
+}
+
+.blog__item ul {
+  margin-bottom: 20px;
+}
+
+.blog__item ul li {
+  color: #777777;
+  list-style: none;
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 25px;
+  position: relative;
+  display: inline-block;
+}
+
+.blog__item ul li:after {
+  position: absolute;
+  right: -16px;
+  top: 0px;
+  content: "/";
+}
+
+.blog__item ul li:last-child {
+  margin-right: 0;
+}
+
+.blog__item ul li:last-child:after {
+  display: none;
+}
+
+.blog__item a {
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: auto; /* 'Read More' linkini kartın en altına sabitler */
+}
+
+.blog__item a span {
+  font-size: 16px;
+  color: #ffffff;
+  opacity: 0.5;
+  position: relative;
+  top: 4px;
+  margin-left: 5px;
+}
+
+/* =================================
+   Blog Kartı İpucu (Tooltip) Stilleri
+   ================================= */
+
+/* Fare üzerine gelince görünecek olan ipucunu oluşturuyoruz */
+.blog__item::after {
+  content: attr(data-summary); /* HTML'deki data-summary özelliğinin içeriğini alır */
+  position: absolute;
+  bottom: 105%; /* Kartın hemen üzerinde konumlanır */
+  left: 50%;
+  transform: translateX(-50%);
+  
+  /* Görünüm Stilleri */
+  background-color: rgba(10, 1, 25, 0.9); /* Sitenizin ana arka plan renginin hafif transparan hali */
+  backdrop-filter: blur(5px); /* Arka plana modern bir bulanıklık efekti */
+  color: #adadad;
+  padding: 12px 18px;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 90%;
+  max-width: 300px; /* İpucunun çok geniş olmasını engeller */
+  font-size: 14px;
+  line-height: 1.6;
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  
+  /* Başlangıçta Gizli Olması İçin */
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none; /* Fare olaylarını engeller */
+  z-index: 10;
+  
+  /* Geçiş Efekti */
+  transition: opacity 0.3s ease, visibility 0.3s ease, bottom 0.3s ease;
+}
+
+/* Fare ile kartın üzerine gelindiğinde ipucunu görünür yap */
+.blog__item:hover::after {
+  opacity: 1;
+  visibility: visible;
+  bottom: 100%; /* Hafif yukarı kayma efekti için */
+}
+
+/* Kartın kendisi flexbox olarak kalmalı ki "Read More" altta hizalansın */
+.blog__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog__item a {
+  margin-top: auto; /* Bu özellik linki en alta sabitler */
+}
