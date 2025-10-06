@@ -35,7 +35,7 @@ AWS'in 200'den fazla hizmeti var ve hepsi konsol üzerinden erişilebilir. Ancak
 ## Bölüm 2: AWS Bölgeleri
 Daha önce bahsettiğimiz gibi, AWS'in dünya çapında birçok bölgesi bulunur.
 
-> ![AWS Bölgeleri Tablosu](img\blog\embed\aws-regions.jpg)
+> ![AWS Bölgeleri Tablosu](img/blog/embed/aws-regions.jpg)
 
 Her bölgenin insanlar tarafından bilinen bir adı (örn: Frankfurt) ve makineler/API'lar tarafından kullanılan bir kodu (`eu-central-1`) vardır. Liste sürekli büyümektedir ve en güncel listeye her zaman [AWS'in resmi web sitesinden](https://aws.amazon.com/tr/about-aws/global-infrastructure/) ulaşabilirsin.
 
@@ -43,7 +43,7 @@ Her bölgenin insanlar tarafından bilinen bir adı (örn: Frankfurt) ve makinel
 Bu, AWS'deki güvenliğin en temel prensibidir ve sınavda kesinlikle karşına çıkacaktır. Bu model, buluttaki güvenlik sorumluluğunun AWS ile müşteri arasında nasıl paylaşıldığını tanımlar.
 
 
-> ![Paylaşılan Sorumluluk Modeli](img\blog\embed\aws-shared-responsibility.png)
+> ![Paylaşılan Sorumluluk Modeli](img/blog/embed/aws-shared-responsibility.png)
 
 Modelin ana fikri şudur:
 **AWS**, bulutun **KENDİSİNİN** güvenliğinden sorumludur.
@@ -70,7 +70,7 @@ Siz, yani müşteri, AWS'in size sağladığı altyapının üzerine koyduğunuz
 
 **Not:** Bu sorumluluk çizgisi, kullanılan hizmet modeline (`IaaS`, `PaaS`, `SaaS`) göre değişir. Örneğin, `IaaS (EC2)` modelinde işletim sisteminden siz sorumluyken, `PaaS (RDS)` modelinde işletim sistemi ve veritabanı yazılımının bakımını AWS üstlenir. `SaaS` modelinde ise sorumluluğunuz en az düzeydedir.
 
-> ![Hizmet Modeli Tipleri](img\blog\embed\aws-cloud-type.jpg)
+> ![Hizmet Modeli Tipleri](img/blog/embed/aws-cloud-type.jpg)
 
 ## Bölüm 4: AWS Kabul Edilebilir Kullanım Politikası (AWS Acceptable Use Policy)
 Bu politika, AWS hizmetlerini kullanırken uymanız gereken kurallar bütünüdür. Kısacası, AWS platformunda neleri yapamayacağınızı belirten yasal bir belgedir. Amacı, platformu herkes için güvenli, stabil ve yasal tutmaktır.
