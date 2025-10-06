@@ -129,5 +129,70 @@
     ],
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için AWS Yönetim Konsolu, paylaşılan sorumluluk modeli ve temel güvenlik politikalarını kapsayan bu blog serisinin altıncı bölümüdür. AWS'nin kullanıcı arayüzünü nasıl kullanacağınızı, güvenlik sorumluluklarını ve politika yönetimini öğrenerek bulut ortamınızı güvenli ve verimli bir şekilde yönetin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part1-konu6.md"
+  },
+  {
+    "slug": "aws-clf-c02-part2-konu1",
+    "title": "CLF-C02 Part 2 Konu 1 - AWS Identity and Access Management",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws2.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practictioner (CLF-C02) sertifikasına hazırlık için AWS Identity and Access Management (IAM) hizmetini öğrenmeye başlıyoruz. IAM'in temel kavramlarını, kullanıcı ve grup yönetimini, roller ve politikalar oluşturmayı öğrenerek AWS kaynaklarınızı güvenli bir şekilde yönetin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu1.md"
+  },
+  {
+    "slug": "aws-clf-c02-part2-konu2",
+    "title": "CLF-C02 Part 2 Konu 2 - IAM İzinleri ve Politikaları",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws2.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için IAM izinlerini ve politikalarını derinlemesine inceleyerek, AWS kaynaklarına erişimi nasıl yöneteceğinizi öğreniyoruz. Politika türleri, en iyi uygulamalar ve gerçek dünya senaryoları ile IAM'in güvenlik yönetimindeki kritik rolünü kavrayın.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu2.md"
+  },
+  {
+    "slug": "aws-clf-c02-part2-konu3",
+    "title": "CLF-C02 Part 2 Konu 3 - IAM Erişim Yöntemleri ve Güvenlik Katmanları",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws2.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için IAM erişim yöntemlerini ve güvenlik katmanlarını öğreniyoruz. Erişim türleri, çok faktörlü kimlik doğrulama (MFA) ve en iyi güvenlik uygulamaları ile AWS ortamınızı koruma stratejilerinizi güçlendirin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu3.md"
+  },
+  {
+    "slug": "aws-clf-c02-part2-konu4",
+    "title": "CLF-C02 Part 2 Konu 4 - Programatik Erişim ve IAM Güvenlik Araçları",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws2.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için programatik erişim yöntemlerini ve IAM güvenlik araçlarını öğreniyoruz. Erişim anahtarları, AWS CLI, SDK'lar ve IAM Access Analyzer gibi araçlarla AWS kaynaklarınıza güvenli ve verimli bir şekilde erişmeyi ve yönetmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu4.md"
+  },
+  {
+    "slug": "aws-clf-c02-part2-konu5",
+    "title": "CLF-C02 Part 2 Konu 5 - IAM En İyi Uygulamaları ve Bölüm Özeti",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws2.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için IAM en iyi uygulamalarını ve bu bölümün özetini sunuyoruz. En az ayrıcalık prensibi, düzenli denetimler ve güvenlik araçları ile AWS ortamınızı güvenli tutmanın yollarını öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu5.md"
   }
 ]
