@@ -207,5 +207,89 @@
     "series": "AWS CLF-C02 - Part 2",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için IAM en iyi uygulamalarını ve bu bölümün özetini sunuyoruz. En az ayrıcalık prensibi, düzenli denetimler ve güvenlik araçları ile AWS ortamınızı güvenli tutmanın yollarını öğrenin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part2-konu5.md"
+  },
+  {
+    "slug": "aws-clf-c02-part3-konu1",
+    "title": "CLF-C02 Part 3 Konu 1 - Amazon EC2'ye Giriş - Buluttaki Sanal Sunucunuz",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws3.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 3",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için Amazon EC2 hizmetine giriş yapıyoruz. EC2'nin temel kavramlarını, kullanım senaryolarını ve avantajlarını öğrenerek, buluttaki sanal sunucularınızı nasıl oluşturacağınızı ve yöneteceğinizi keşfedin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part3-konu1.md"
+  },
+  {
+    "slug": "aws-clf-c02-part3-konu2",
+    "title": "CLF-C02 Part 3 Konu 2 - EC2 Boyutlandırma ve Yapılandırma Seçenekleri",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws3.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 3",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için EC2 boyutlandırma ve yapılandırma seçeneklerini öğreniyoruz. Farklı instance tiplerini, depolama seçeneklerini ve ağ yapılandırmalarını keşfederek, uygulamalarınız için en uygun EC2 yapılandırmasını seçmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part3-konu2.md"
+  },
+  {
+    "slug": "aws-clf-c02-part3-konu3",
+    "title": "CLF-C02 Part 3 Konu 3 - EC2 Sunucu Tipleri",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws3.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 3",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için EC2 sunucu tiplerini öğreniyoruz. Genel amaçlı, hesaplama optimizasyonlu, bellek optimizasyonlu ve depolama optimizasyonlu gibi farklı sunucu tiplerini keşfederek, uygulamalarınızın ihtiyaçlarına en uygun EC2 instance'ını seçmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part3-konu3.md"
+  },
+  {
+    "slug": "aws-clf-c02-part3-konu4",
+    "title": "CLF-C02 Part 3 Konu 4 - Security Groups ve EC2 Güvenlik Katmanları",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws3.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 3",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için Security Groups ve EC2 güvenlik katmanlarını öğreniyoruz. Güvenlik gruplarının nasıl çalıştığını, inbound ve outbound kurallarını ve en iyi güvenlik uygulamalarını keşfederek, EC2 instance'larınızı güvenli bir şekilde korumayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part3-konu4.md"
+  },
+  {
+    "slug": "aws-clf-c02-part3-konu5",
+    "title": "CLF-C02 Part 3 Konu 5 - EC2 Satın Alma Seçenekleri",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws3.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 3",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için EC2 satın alma seçeneklerini öğreniyoruz. On-Demand, Reserved, Spot ve Dedicated Instances gibi farklı satın alma modellerini keşfederek, maliyet etkinliği ve performans ihtiyaçlarınıza en uygun EC2 satın alma stratejisini belirlemeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part3-konu5.md"
+  },
+  {
+    "slug": "aws-clf-c02-part3-konu6",
+    "title": "CLF-C02 Part 3 Konu 6 - Bölüm Özeti ve Sorumluluk Modeli",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws3.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 3",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bu bölümün özetini ve AWS'nin paylaşılan sorumluluk modelini öğreniyoruz. Bölümde ele alınan temel kavramları gözden geçirerek, bulut güvenliği ve yönetimi konusundaki anlayışınızı pekiştirin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part3-konu6.md"
   }
 ]
