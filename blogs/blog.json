@@ -291,5 +291,89 @@
     "series": "AWS CLF-C02 - Part 3",
     "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için bu bölümün özetini ve AWS'nin paylaşılan sorumluluk modelini öğreniyoruz. Bölümde ele alınan temel kavramları gözden geçirerek, bulut güvenliği ve yönetimi konusundaki anlayışınızı pekiştirin.",
     "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part3-konu6.md"
+  },
+  {
+    "slug": "aws-clf-c02-part4-konu1",
+    "title": "CLF-C02 Part 4 Konu 1 - EBS - EC2'nin Kalıcı ve Esnek Diski",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws4.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 4",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için Amazon EBS (Elastic Block Store) hizmetini öğreniyoruz. EBS'nin temel kavramlarını, kullanım senaryolarını ve avantajlarını keşfederek, EC2 instance'larınız için kalıcı ve esnek depolama çözümlerini nasıl oluşturacağınızı ve yöneteceğinizi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part4-konu1.md"
+  },
+  {
+    "slug": "aws-clf-c02-part4-konu2",
+    "title": "CLF-C02 Part 4 Konu 2 - AMI ve Instance Store",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws4.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 4",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için Amazon Machine Images (AMI) ve Instance Store hizmetlerini öğreniyoruz. AMI'lerin nasıl oluşturulacağını, kullanılacağını ve Instance Store'un geçici depolama çözümleri için nasıl kullanılacağını keşfederek, EC2 instance'larınızın performansını ve esnekliğini artırmayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part4-konu2.md"
+  },
+  {
+    "slug": "aws-clf-c02-part4-konu3",
+    "title": "CLF-C02 Part 4 Konu 3 - EFS ve EC2 Depolama Sorumluluk Modeli",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws4.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 4",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için Amazon EFS (Elastic File System) hizmetini ve EC2 depolama sorumluluk modelini öğreniyoruz. EFS'nin temel kavramlarını, kullanım senaryolarını ve avantajlarını keşfederek, EC2 instance'larınız için ölçeklenebilir ve paylaşılan dosya sistemleri oluşturmayı ve yönetmeyi öğrenin. Ayrıca, AWS'nin paylaşılan sorumluluk modeli kapsamında depolama yönetimi konusundaki rollerinizi anlayın.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part4-konu3.md"
+  },
+  {
+    "slug": "aws-clf-c02-part4-konu4",
+    "title": "CLF-C02 Part 4 Konu 4 - Amazon FSx ve EC2 Depolama Özeti",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws4.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 4",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için Amazon FSx hizmetini ve EC2 depolama özetini öğreniyoruz. FSx'in temel kavramlarını, kullanım senaryolarını ve avantajlarını keşfederek, yüksek performanslı ve yönetilen dosya sistemleri oluşturmayı ve yönetmeyi öğrenin. Ayrıca, bu bölümde ele alınan depolama hizmetlerinin genel bir özetini sunarak, AWS depolama çözümleri konusundaki anlayışınızı pekiştirin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part4-konu4.md"
+  },
+  {
+    "slug": "aws-clf-c02-part4-konu5",
+    "title": "CLF-C02 Part 4 Konu 5 - Elastic Load Balancing",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws4.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 4",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için Elastic Load Balancing (ELB) hizmetini öğreniyoruz. ELB'nin temel kavramlarını, kullanım senaryolarını ve avantajlarını keşfederek, uygulamalarınız için yüksek erişilebilirlik ve ölçeklenebilirlik sağlayan yük dengeleme çözümlerini nasıl oluşturacağınızı ve yöneteceğinizi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part4-konu5.md"
+  },
+  {
+    "slug": "aws-clf-c02-part4-konu6",
+    "title": "CLF-C02 Part 4 Konu 6 - Auto Scaling Groups",
+    "author": "Betül Bayram",
+    "publishDate": "Oct , 2025",
+    "coverImage": "/img/blog/covers/aws4.png",
+    "tags": [
+      { "name": "AWS", "filterClass": "aws" },
+      { "name": "Cloud", "filterClass": "cloud" }
+    ],
+    "series": "AWS CLF-C02 - Part 4",
+    "summary": "AWS Certified Cloud Practitioner (CLF-C02) sertifikasına hazırlık için Auto Scaling Groups (ASG) hizmetini öğreniyoruz. ASG'nin temel kavramlarını, kullanım senaryolarını ve avantajlarını keşfederek, uygulamalarınızın talebe göre otomatik olarak ölçeklenmesini sağlayan esnek ve dayanıklı altyapılar oluşturmayı ve yönetmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/aws-clf-c02-part4-konu6.md"
   }
 ]
