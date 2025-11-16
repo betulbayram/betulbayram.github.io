@@ -2733,3 +2733,157 @@ ol {
 .blog__item a {
   margin-top: auto; /* Bu özellik linki en alta sabitler */
 }
+
+/* =================================
+   Proje Detay Paneli Stilleri
+   ================================= */
+
+/* Arka Plan Karartma (Overlay) */
+.project-panel-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease;
+  z-index: 1000;
+}
+
+.project-panel-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Sağdan Açılır Panel */
+.project-detail-panel {
+  position: fixed;
+  top: 0;
+  right: -100%; /* Başlangıçta ekranın dışında */
+  width: 450px;
+  height: 100vh;
+  background: #0a0119; /* Footer'ınızla aynı renk */
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: -5px 0 30px rgba(0, 0, 0, 0.3);
+  z-index: 1001;
+  transition: right 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  overflow-y: auto; /* İçerik taşarsa kaydırma çubuğu çıkar */
+  padding: 40px;
+  padding-top: 70px; /* Kapatma butonu için yer */
+}
+
+.project-detail-panel.active {
+  right: 0; /* Aktif olduğunda ekrana gelir */
+}
+
+/* Panel Kapatma Butonu */
+.panel-close-btn {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  font-size: 36px;
+  color: #adadad;
+  cursor: pointer;
+  line-height: 1;
+  transition: all 0.3s;
+}
+
+.panel-close-btn:hover {
+  color: #00bfe7;
+  transform: rotate(90deg);
+}
+
+/* Panel İçeriği */
+.panel-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.panel-content h3 {
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.panel-content p {
+  color: #adadad;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 25px;
+}
+
+.panel-content h4 {
+  color: #ffffff;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #00bfe7;
+  display: inline-block;
+}
+
+.panel-tech-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.panel-tech-list li {
+  background: rgba(0, 191, 231, 0.1);
+  color: #00bfe7;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.panel-links a {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  padding: 14px 32px 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background: #00bfe7;
+  border-radius: 4px;
+  transition: all 0.3s;
+  text-align: center;
+  width: 100%;
+}
+
+.panel-links a:hover {
+  background: #00a6c9;
+  color: #fff;
+}
+
+/* Proje kartlarının tıklanabilir olduğunu göstermek için */
+.portfolio__item {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portfolio__item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 191, 231, 0.1);
+}
+
+/* Mobil cihazlarda paneli tam ekran yap */
+@media (max-width: 600px) {
+  .project-detail-panel {
+    width: 100%;
+    right: -110%; /* Tamamen çıktığından emin ol */
+  }
+}

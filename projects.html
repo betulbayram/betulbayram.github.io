@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Betül Bayram" />
@@ -9,7 +9,6 @@
     <link rel="icon" href="/img/logo.png" type="image/png" />
     <title>Betül Bayram</title>
 
-    <!-- Google Font -->
     <link
       href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap"
       rel="stylesheet"
@@ -24,7 +23,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
 
-    <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
@@ -35,12 +33,10 @@
   </head>
 
   <body>
-    <!-- Page Preloder -->
     <div id="preloder">
       <div class="loader"></div>
     </div>
 
-    <!-- Header Section Begin -->
     <header class="header">
       <div class="container">
         <div class="row">
@@ -80,13 +76,11 @@
         </div>
       </div>
     </header>
-    <!-- Header End -->
-
     <nav class="modern-mobile-menu" id="modernMobileMenu">
       <ul>
         <li><a href="./index.html">Home</a></li>
         <li><a href="./about.html">About</a></li>
-        <li><a href="./projects.html"  class="active">Projects</a></li>
+        <li><a href="./projects.html" class="active">Projects</a></li>
         <li><a href="./blogs.html">Blogs</a></li>
         <li>
           <a href="./knowledge_space.html">Knowledge Space</a>
@@ -110,10 +104,8 @@
       </div>
     </nav>
 
-    <!-- YENİ: Menu Overlay -->
     <div class="mobile-menu-overlay" id="mobileMenuOverlay"></div>
 
-    <!-- Breadcrumb Begin -->
     <div
       class="breadcrumb-option spad set-bg"
       data-setbg="img/breadcrumb-bg.jpg"
@@ -132,9 +124,6 @@
         </div>
       </div>
     </div>
-    <!-- Breadcrumb End -->
-
-    <!-- Portfolio Section Begin -->
     <section class="portfolio spad">
       <div class="container">
         <div class="row">
@@ -149,68 +138,186 @@
             </ul>
           </div>
         </div>
+        
         <div class="row portfolio__gallery">
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai robotics">
-            <div class="portfolio__item">
-              <a
-                href="https://sites.google.com/view/yzt-talos-otonom-arac-takimi"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/1.png"
-                ></div>
-              </a>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix ai">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/0.png" 
+              data-title="Muzigin.com"
+              data-description="An innovative, royalty-free music platform that empowers creators with unique soundtracks. Muzigin.com utilizes advanced generative AI models to compose custom, high-quality music, offering an endless library of copyright-free audio tailored to any mood or genre. My primary contribution focuses on developing and optimizing the core AI music generation engine."
+              data-tech="Artificial Intelligence, Generative AI, Deep Learning, Audio Processing, Python"
+              data-link="https://muzigin.com/"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/0.png"
+              ></div>
               <div class="portfolio__item__text">
-                <h4>Self Driving Car</h4>
+                <h4>Muzigin.com</h4>
                 <ul>
                   <li>Artificial Intelligence</li>
-                  <li>Robotics</li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai gd">
-            <div class="portfolio__item">
-              <a
-                href="https://github.com/betulbayram/UzayOyunu_RL"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/2.png"
-                ></div>
-              </a>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix wd ai">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/11.png"
+              data-title="WakeWarden"
+              data-description="A developer-first application security platform designed to unify DevSecOps and IncidentOps. Wakewarden helps development teams ship secure code faster by integrating automated security analysis (SAST, SCA, DAST) directly into the development workflow, providing AI-powered remediation suggestions for vulnerabilities."
+              data-tech="Web Development, Angular, TypeScript, HTML, CSS, Python, FastAPI, LLM, OpenAI, Docker"
+              data-link="https://wakewarden.com/"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/11.png"
+              ></div>
               <div class="portfolio__item__text">
-                <h4>Space Invaders Game</h4>
+                <h4>WakeWarden</h4>
+                <ul>
+                  <li>Web Development, Artificial Intelligence, App Security</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/10.png"
+              data-title="Kourlas"
+              data-description="Kourlas is a personal productivity application designed as a tool that combines the Eisenhower Matrix, Pomodoro Technique, and Deep Work principles. The project is developed with Angular."
+              data-tech="Web Development, Angular, TypeScript, HTML, CSS"
+              data-link="https://kourlas.netlify.app/"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/10.png"
+              ></div>
+              <div class="portfolio__item__text">
+                <h4>Kourlas</h4>
+                <ul>
+                  <li>Web Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/9.png"
+              data-title="GNA CARBON"
+              data-description="A corporate website developed for the GNA CARBON company. The site features a modern design and showcases the company's products and services."
+              data-tech="Web Development, HTML, CSS, JavaScript, Bootstrap, Tailwind CSS"
+              data-link="https://gnacarbon.com/"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/9.png"
+              ></div>
+              <div class="portfolio__item__text">
+                <h4>GNA CARBON</h4>
+                <ul>
+                  <li>Web Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/8.png"
+              data-title="Öz Bayramoğlu Otomotiv"
+              data-description="A corporate website developed for Öz Bayramoğlu Otomotiv. It is a static site showcasing the company's services, products, and contact information."
+              data-tech="Web Development, HTML, CSS, JavaScript"
+              data-link="https://www.ozbayramogluotomotiv.com/"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/8.png"
+              ></div>
+              <div class="portfolio__item__text">
+                <h4>Öz Bayramoğlu Otomotiv</h4>
+                <ul>
+                  <li>Web Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix ai health">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/7.png"
+              data-title="Lung Cancer Detection"
+              data-description="Developed with the BIOTOLIA team, this project involved training a deep learning-based Convolutional Neural Network (CNN) model to detect lung cancer (nodules) from CT (Computed Tomography) scans."
+              data-tech="Artificial Intelligence, Healthcare, Deep Learning, Python, Pytorch, CNN, Random Forest Trees"
+              data-link="https://sites.google.com/view/yzt-biotolia"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/7.png"
+              ></div>
+              <div class="portfolio__item__text">
+                <h4>Lung Cancer Detection</h4>
                 <ul>
                   <li>Artificial Intelligence</li>
+                  <li>Healthcare</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/6.png"
+              data-title="E-Commerce Website"
+              data-description="Developed as part of an e-commerce workshop, this project is a web application featuring basic e-commerce functionalities like product listing, cart operations, and user login. It uses .NET Core for the backend and Angular for the frontend."
+              data-tech="Web Development, .NET Core, Angular, C#, TypeScript, HTML, CSS, Bootstrap, SQL"
+              data-link="https://github.com/betulbayram/e-commerce-workshop"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/6.png"
+              ></div>
+              <div class="portfolio__item__text">
+                <h4>E-Commerce Website</h4>
+                <ul>
+                  <li>Web Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix gd">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/5.png"
+              data-title="3D Car Racing Game"
+              data-description="A 3D car racing game developed using the Unity game engine. The project includes basic game mechanics, physics simulation, and user interface design."
+              data-tech="Game Development, Unity, C#"
+              data-link="https://github.com/Traffic-Monster"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/5.png"
+              ></div>
+              <div class="portfolio__item__text">
+                <h4>3D Car Racing Game</h4>
+                <ul>
                   <li>Game Development</li>
                 </ul>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 mix ai">
-            <div class="portfolio__item">
-              <a
-                href="https://github.com/betulbayram/e2e-ml-project"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/3.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Root Cause Analysis</h4>
-                <ul>
-                  <li>Artificial Intelligence</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai">
-            <div class="portfolio__item">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/4.png"
+              data-title="Anomaly Face Recognition"
+                data-description="Developed for a security system, this project uses a deep learning model to detect anomalous facial expressions that deviate from normal ones. The model was trained using an autoencoder architecture. It was developed as a university graduation project."
+              data-tech="Artificial Intelligence, Deep Learning, Python, TensorFlow, Keras, OpenCV"
+              data-link="#"
+            >
               <div
                 class="portfolio__item__video set-bg"
                 data-setbg="img/portfolio/4.png"
@@ -224,120 +331,97 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix gd">
-            <div class="portfolio__item">
-              <a href="https://github.com/Traffic-Monster" target="_blank">
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/5.png"
-                ></div>
-              </a>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix ai">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/3.png"
+              data-title="Root Cause Analysis (e2e-ml-project)"
+              data-description="An end-to-end machine learning project. In this project, classification and clustering algorithms were applied to log data to analyze the root causes of errors in a system. Data prepration, data visualization, exploratory data analysis, model training, and model deployment steps were included."
+              data-tech="Artificial Intelligence, Machine Learning, Python, Pandas, Scikit-learn"
+              data-link="https://github.com/betulbayram/e2e-ml-project"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/3.png"
+              ></div>
               <div class="portfolio__item__text">
-                <h4>3D Car Racing Game</h4>
+                <h4>Root Cause Analysis</h4>
                 <ul>
+                  <li>Artificial Intelligence</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix ai gd">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/2.png"
+              data-title="Space Invaders Game with RL"
+              data-description="A project where the classic Space Invaders game is played by a Reinforcement Learning agent. The agent learns to achieve the highest score by observing the environment and through a reward/penalty mechanism."
+              data-tech="Artificial Intelligence, Game Development, Python, Pygame, Reinforcement Learning, Pytorch"
+              data-link="https://github.com/betulbayram/UzayOyunu_RL"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/2.png"
+              ></div>
+              <div class="portfolio__item__text">
+                <h4>Space Invaders Game</h4>
+                <ul>
+                  <li>Artificial Intelligence</li>
                   <li>Game Development</li>
                 </ul>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
-            <div class="portfolio__item">
-              <a
-                href="https://github.com/betulbayram/e-commerce-workshop"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/6.png"
-                ></div>
-              </a>
+          <div class="col-lg-4 col-md-6 col-sm-6 mix ai robotics">
+            <div
+              class="portfolio__item"
+              data-image="img/portfolio/1.png"
+              data-title="Self Driving Car"
+              data-description="Developed for the YZT | TALOS Autonomous Vehicle Team, this project involves an autonomous vehicle software running on ROS (Robot Operating System), capable of lane keeping and object detection using computer vision and artificial intelligence algorithms."
+              data-tech="Artificial Intelligence, Robotics, ROS, Python, OpenCV, Computer Vision, YOLO, Deep Learning"
+              data-link="https://sites.google.com/view/yzt-talos-otonom-arac-takimi"
+            >
+              <div
+                class="portfolio__item__video set-bg"
+                data-setbg="img/portfolio/1.png"
+              ></div>
               <div class="portfolio__item__text">
-                <h4>E-Commerce Website</h4>
-                <ul>
-                  <li>Web Development</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix ai health">
-            <div class="portfolio__item">
-              <a
-                href="https://sites.google.com/view/yzt-biotolia"
-                target="_blank"
-              >
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/7.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Lung Cancer Detection</h4>
+                <h4>Self Driving Car</h4>
                 <ul>
                   <li>Artificial Intelligence</li>
-                  <li>Healthcare</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
-            <div class="portfolio__item">
-              <a href="https://www.ozbayramogluotomotiv.com/" target="_blank">
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/8.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Öz Bayramoğlu Otomotiv</h4>
-                <ul>
-                  <li>Web Development</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
-            <div class="portfolio__item">
-              <a href="https://gnacarbon.com/" target="_blank">
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/9.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>GNA CARBON</h4>
-                <ul>
-                  <li>Web Development</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6 mix wd">
-            <div class="portfolio__item">
-              <a href="https://kourlas.netlify.app/" target="_blank">
-                <div
-                  class="portfolio__item__video set-bg"
-                  data-setbg="img/portfolio/10.png"
-                ></div>
-              </a>
-              <div class="portfolio__item__text">
-                <h4>Kourlas</h4>
-                <ul>
-                  <li>Web Development</li>
+                  <li>Robotics</li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-      </div>
+        </div>
     </section>
-    <!-- Portfolio Section End -->
+    <div class="project-panel-overlay" id="projectPanelOverlay"></div>
+    <div class="project-detail-panel" id="projectDetailPanel">
+      <div class="panel-close-btn" id="panelCloseBtn">&times;</div>
 
+      <div class="panel-content">
+        <img id="panel-image" src="" alt="Project Image" />
+        <h3 id="panel-title">Project Name</h3>
+        <p id="panel-description">Project description will go here...</p>
+
+        <h4>Technologies Used</h4>
+        <ul class="panel-tech-list" id="panel-tech-list">
+          </ul>
+
+        <div class="panel-links">
+          <a id="panel-project-link" href="#" target="_blank">View Project</a>
+        </div>
+      </div>
+    </div>
     <footer class="footer">
       <div class="container">
         <div class="footer__copyright">
           <div class="row">
             <div class="col-lg-12 text-center">
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
               <p class="footer__copyright__text">
                 Copyright &copy;
                 <script>
@@ -347,14 +431,12 @@
                 <i class="fa fa-heart-o" aria-hidden="true"></i> by
                 <a href="https://colorlib.com" target="_blank">Colorlib</a>
               </p>
-              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            </div>
+              </div>
           </div>
         </div>
       </div>
     </footer>
 
-    <!-- Js Plugins -->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.magnific-popup.min.js"></script>
@@ -413,6 +495,79 @@
         if (window.innerWidth >= 992) {
           closeMobileMenu();
         }
+      });
+    </script>
+
+    <script>
+      $(document).ready(function () {
+        const $panel = $("#projectDetailPanel");
+        const $overlay = $("#projectPanelOverlay");
+        const $closeBtn = $("#panelCloseBtn");
+        const $body = $("body");
+
+        // Selectors for panel content
+        const $panelImage = $("#panel-image");
+        const $panelTitle = $("#panel-title");
+        const $panelDescription = $("#panel-description");
+        const $panelTechList = $("#panel-tech-list");
+        const $panelLink = $("#panel-project-link");
+
+        // When a project card is clicked
+        $(".portfolio__gallery .portfolio__item").on("click", function () {
+          const $item = $(this);
+
+          // Get data from data attributes
+          const image = $item.data("image");
+          const title = $item.data("title");
+          const description = $item.data("description");
+          const techString = $item.data("tech") || ""; // "Python, AI, React"
+          const link = $item.data("link");
+
+          // Populate the panel with data
+          $panelImage.attr("src", image);
+          $panelTitle.text(title);
+          $panelDescription.text(description);
+          $panelLink.attr("href", link);
+
+          // Create the technology list
+          $panelTechList.empty(); // Clear the previous list
+          if (techString) {
+            const techArray = techString.split(",");
+            techArray.forEach(function (tech) {
+              $panelTechList.append("<li>" + tech.trim() + "</li>");
+            });
+          }
+
+          // Check if the link exists
+          if (link && link !== "#") {
+            $panelLink.show();
+          } else {
+            $panelLink.hide();
+          }
+
+          // Show the panel and overlay
+          $panel.addClass("active");
+          $overlay.addClass("active");
+          $body.css("overflow", "hidden"); // Stop background scrolling
+        });
+
+        // Close function
+        function closePanel() {
+          $panel.removeClass("active");
+          $overlay.removeClass("active");
+          $body.css("overflow", ""); // Re-enable scrolling
+        }
+
+        // Close the panel when the close button or overlay is clicked
+        $closeBtn.on("click", closePanel);
+        $overlay.on("click", closePanel);
+
+        // Close with ESC key
+        $(document).on("keydown", function (e) {
+          if (e.key === "Escape" && $panel.hasClass("active")) {
+            closePanel();
+          }
+        });
       });
     </script>
   </body>

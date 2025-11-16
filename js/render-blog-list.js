@@ -151,7 +151,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       if (currentPage > 1) {
         paginationHTML += `<a href="#" class="arrow" data-page="${
           currentPage - 1
-        }">&laquo; Önceki</a>`;
+        }">&laquo; Prev</a>`;
       }
 
       for (let i = 1; i <= totalPages; i++) {
@@ -163,7 +163,7 @@ document.addEventListener("DOMContentLoaded", async function () {
       if (currentPage < totalPages) {
         paginationHTML += `<a href="#" class="arrow" data-page="${
           currentPage + 1
-        }">Sonraki &raquo;</a>`;
+        }">Next &raquo;</a>`;
       }
     }
     paginationContainer.innerHTML = paginationHTML;
