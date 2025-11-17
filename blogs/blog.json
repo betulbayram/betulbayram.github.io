@@ -635,5 +635,122 @@
     "series": "AI Engineer",
     "summary": "Yapay zeka mühendisliğinde modeli üretimden stratejiye taşıma süreçlerini derinlemesine keşfedin. Bu blog serisinin yirminci bölümünde, AI modellerinizi üretim ortamına geçirme stratejilerini, en iyi uygulamaları ve yönetim tekniklerini öğrenerek, yapay zeka çözümlerinizin iş hedeflerinize ulaşmasını sağlamayı öğrenin.",
     "markdownFile": "/blogs/markdown_blogs/ai-engineer/b20.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum1",
+    "title": "Bölüm 1: Prompt Engineering'e Giriş",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde Prompt Engineering kavramına giriş yapın. Bu blog serisinin ilk bölümünde, prompt engineering'in ne olduğunu, neden önemli olduğunu ve AI modelleriyle etkileşimde nasıl kullanıldığını öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b1.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum2",
+    "title": "Bölüm 2: Prompt Engineering'de Temel Kavramlar",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde Prompt Engineering'in temel kavramlarını derinlemesine keşfedin. Bu blog serisinin ikinci bölümünde, etkili prompt tasarımı, bağlam sağlama, model davranışını yönlendirme ve performans optimizasyonu gibi kritik konuları öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b2.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum3",
+    "title": "Bölüm 3: Prompt Engineering'de Sampling Parametreleri",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde Prompt Engineering'de sampling parametrelerini derinlemesine keşfedin. Bu blog serisinin üçüncü bölümünde, sıcaklık (temperature), top-k ve top-p (nucleus) sampling gibi teknikleri öğrenerek, AI modellerinin çıktılarının çeşitliliğini ve yaratıcılığını nasıl kontrol edebileceğinizi keşfedin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b3.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum4",
+    "title": "Bölüm 4: Prompt Engineering'de Output Kontrolü",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde Prompt Engineering'de output kontrolünü derinlemesine keşfedin. Bu blog serisinin dördüncü bölümünde, AI modellerinin çıktılarının uzunluğunu, biçimini ve içeriğini nasıl yönlendirebileceğinizi öğrenerek, istenen sonuçları elde etmek için etkili stratejiler geliştirin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b4.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum5",
+    "title": "Bölüm 5: Prompt Engineering'de Structured Output",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde Prompt Engineering'de structured output kavramını derinlemesine keşfedin. Bu blog serisinin beşinci bölümünde, AI modellerinden yapılandırılmış veriler elde etme tekniklerini öğrenerek, çıktılarınızı daha düzenli ve analiz edilebilir hale getirin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b5.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum6",
+    "title": "Bölüm 6: Prompt Engineering Teknikleri",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde Prompt Engineering tekniklerini derinlemesine keşfedin. Bu blog serisinin altıncı bölümünde, zincirleme düşünme (chain-of-thought), few-shot learning, zero-shot learning ve diğer gelişmiş prompt tekniklerini öğrenerek, AI modellerinin performansını ve doğruluğunu artırmayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b6.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum7",
+    "title": "Bölüm 7: Otomatik Prompt Oluşturma ve Red Teaming",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde otomatik prompt oluşturma ve red teaming kavramlarını derinlemesine keşfedin. Bu blog serisinin yedinci bölümünde, otomatik prompt oluşturma tekniklerini ve red teaming stratejilerini öğrenerek, AI modellerinizin güvenliğini, dayanıklılığını ve performansını artırmayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b7.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum8",
+    "title": "Bölüm 8: Best Practices in Prompt Engineering",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde Prompt Engineering'de en iyi uygulamaları derinlemesine keşfedin. Bu blog serisinin sekizinci bölümünde, etkili prompt tasarımı, test etme, değerlendirme ve iyileştirme stratejilerini öğrenerek, AI modellerinizden en iyi performansı elde etmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b8.md"
+  },
+  {
+    "slug": "prompt-engineering-bolum9",
+    "title": "Bölüm 9: Prompt Engineering'te Güvenilirliği Artırmak",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/prompt_engineering.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "Prompt Engineering",
+    "summary": "Yapay zeka mühendisliğinde Prompt Engineering'de güvenilirliği artırma stratejilerini derinlemesine keşfedin. Bu blog serisinin dokuzuncu bölümünde, AI modellerinin tutarlı ve güvenilir çıktılar üretmesini sağlamak için kullanılan teknikleri öğrenerek, yapay zeka çözümlerinizin performansını ve doğruluğunu iyileştirin.",
+    "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b9.md"
   }
 ]
