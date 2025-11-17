@@ -381,7 +381,7 @@
     "title": "Bölüm 1: AI Engineer - Fikirden Değere Köprü Kuran Mimar",
     "author": "Betül Bayram",
     "publishDate": "Oct , 2025",
-    "coverImage": "/img/blog/covers/aws4.png",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
     "tags": [
       { "name": "AI", "filterClass": "ai" }
     ],
@@ -394,12 +394,246 @@
     "title": "Bölüm 2: Modern Yapay Zekanın Temel Kavramları",
     "author": "Betül Bayram",
     "publishDate": "Oct , 2025",
-    "coverImage": "/img/blog/covers/aws4.png",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
     "tags": [
       { "name": "AI", "filterClass": "ai" }
     ],
     "series": "AI Engineer",
     "summary": "Yapay zeka mühendisliğinde temel kavramları derinlemesine keşfedin. Bu blog serisinin ikinci bölümünde, AI ve AGI arasındaki farklardan başlayarak, büyük dil modelleri (LLMs), çıkarım (inference), eğitim (training), gömme (embeddings), vektör veritabanları, AI ajanları, RAG ve prompt mühendisliği gibi kritik konuları öğrenin.",
     "markdownFile": "/blogs/markdown_blogs/ai-engineer/b2.md"
+  },
+  {
+    "slug": "ai-engineer-bolum3",
+    "title": "Bölüm 3: Pretrained Models",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde önceden eğitilmiş modellerin (pretrained models) gücünü keşfedin. Bu blog serisinin üçüncü bölümünde, popüler pretrained modelleri, kullanım alanlarını ve projelerinize nasıl entegre edebileceğinizi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b3.md"
+  },
+  {
+    "slug": "ai-engineer-bolum4",
+    "title": "Bölüm 4: Transfer Learning ve Fine-Tuning",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde transfer öğrenme (transfer learning) ve ince ayar (fine-tuning) tekniklerini derinlemesine keşfedin. Bu blog serisinin dördüncü bölümünde, bu yöntemlerin nasıl çalıştığını, avantajlarını ve projelerinize nasıl uygulayabileceğinizi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b4.md"
+  },
+  {
+    "slug": "ai-engineer-bolum5",
+    "title": "Bölüm 5: Yapay Zeka Ekosistemine Yön Veren Modeller ve Platformlar",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde ekosistemi şekillendiren modelleri ve platformları keşfedin. Bu blog serisinin beşinci bölümünde, OpenAI, Hugging Face, Anthropic ve diğer önde gelen platformların sunduğu araçları ve hizmetleri öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b5.md"
+  },
+  {
+    "slug": "ai-engineer-bolum6",
+    "title": "Bölüm 6: OpenAI API",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde ekosistemi şekillendiren modelleri ve platformları keşfedin. Bu blog serisinin beşinci bölümünde, OpenAI, Hugging Face, Anthropic ve diğer önde gelen platformların sunduğu araçları ve hizmetleri öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b6.md"
+  },
+  {
+    "slug": "ai-engineer-bolum7",
+    "title": "Bölüm 7: Açık Kaynak Yapay Zeka",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde açık kaynak yapay zeka projelerini keşfedin. Bu blog serisinin yedinci bölümünde, topluluk destekli projelerin gücünü, avantajlarını ve projelerinize nasıl entegre edebileceğinizi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b7.md"
+  },
+  {
+    "slug": "ai-engineer-bolum8",
+    "title": "Bölüm 8: Hugging Face",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde Hugging Face platformunu derinlemesine keşfedin. Bu blog serisinin sekizinci bölümünde, Hugging Face'in sunduğu araçları, modelleri ve hizmetleri öğrenerek, projelerinize nasıl entegre edebileceğinizi keşfedin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b8.md"
+  },
+  {
+    "slug": "ai-engineer-bolum9",
+    "title": "Bölüm 9: Ollama",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde Ollama platformunu keşfedin. Bu blog serisinin dokuzuncu bölümünde, Ollama'nın sunduğu araçları, modelleri ve hizmetleri öğrenerek, projelerinize nasıl entegre edebileceğinizi keşfedin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b9.md"
+  },
+  {
+    "slug": "ai-engineer-bolum10",
+    "title": "Bölüm 10: Yapay Zeka Güvenliği ve Etiği",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde güvenlik ve etik konularını derinlemesine keşfedin. Bu blog serisinin onuncu bölümünde, AI projelerinde karşılaşılan güvenlik risklerini, etik sorumlulukları ve en iyi uygulamaları öğrenerek, yapay zeka çözümlerinizin güvenli ve etik standartlara uygun olmasını sağlayın.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b10.md"
+  },
+  {
+    "slug": "ai-engineer-bolum11",
+    "title": "Bölüm 11: Embeddings ve Vektör Veritabanları",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde embeddings ve vektör veritabanlarını derinlemesine keşfedin. Bu blog serisinin on birinci bölümünde, embeddings'in ne olduğunu, nasıl oluşturulduğunu ve vektör veritabanlarının AI projelerindeki rolünü öğrenerek, verimli ve etkili yapay zeka çözümleri geliştirmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b11.md"
+  },
+  {
+    "slug": "ai-engineer-bolum12",
+    "title": "Bölüm 12: Embeddings: Anlamsal Temsili Üretme Yolları",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde embeddings'in anlamsal temsili üretme yollarını derinlemesine keşfedin. Bu blog serisinin on ikinci bölümünde, farklı embedding tekniklerini, modellerini ve uygulama alanlarını öğrenerek, yapay zeka projelerinizde daha anlamlı ve etkili veri temsilleri oluşturmayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b12.md"
+  },
+  {
+    "slug": "ai-engineer-bolum13",
+    "title": "Bölüm 13: Vektör Veritabanları - Yapay Zekanın Anlamsal Hafızası",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde vektör veritabanlarının rolünü derinlemesine keşfedin. Bu blog serisinin on üçüncü bölümünde, vektör veritabanlarının ne olduğunu, nasıl çalıştığını ve AI projelerindeki önemini öğrenerek, yapay zeka çözümlerinizin anlamsal hafızasını güçlendirmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b13.md"
+  },
+  {
+    "slug": "ai-engineer-bolum14",
+    "title": "Bölüm 14: RAG - Retrieval Augmented Generation",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde RAG (Retrieval Augmented Generation) kavramını derinlemesine keşfedin. Bu blog serisinin on dördüncü bölümünde, RAG'in ne olduğunu, nasıl çalıştığını ve AI projelerindeki uygulamalarını öğrenerek, yapay zeka çözümlerinizin bilgi erişimini ve üretkenliğini artırmayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b14.md"
+  },
+  {
+    "slug": "ai-engineer-bolum15",
+    "title": "Bölüm 15: AI Agent'lar 🤖",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde AI agent'ları derinlemesine keşfedin. Bu blog serisinin on beşinci bölümünde, AI agent'larının ne olduğunu, nasıl çalıştığını ve projelerinizde nasıl kullanılabileceğini öğrenerek, yapay zeka çözümlerinizin otonom yeteneklerini geliştirmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b15.md"
+  },
+  {
+    "slug": "ai-engineer-bolum16",
+    "title": "Bölüm 16: Model Context Protocol (MCP)",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde Model Context Protocol (MCP) kavramını derinlemesine keşfedin. Bu blog serisinin on altıncı bölümünde, MCP'nin ne olduğunu, nasıl çalıştığını ve AI projelerindeki uygulamalarını öğrenerek, yapay zeka çözümlerinizin bağlam yönetimini ve performansını artırmayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b16.md"
+  },
+  {
+    "slug": "ai-engineer-bolum17",
+    "title": "Bölüm 17: MCP ile Geliştirme",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde Model Context Protocol (MCP) ile geliştirme süreçlerini derinlemesine keşfedin. Bu blog serisinin on yedinci bölümünde, MCP kullanarak AI projelerinizi nasıl geliştirebileceğinizi, en iyi uygulamaları ve stratejileri öğrenerek, yapay zeka çözümlerinizin etkinliğini ve verimliliğini artırmayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b17.md"
+  },
+  {
+    "slug": "ai-engineer-bolum18",
+    "title": "Bölüm 18: Multimodal Modeller",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde multimodal modelleri derinlemesine keşfedin. Bu blog serisinin on sekizinci bölümünde, multimodal modellerin ne olduğunu, nasıl çalıştığını ve AI projelerindeki uygulamalarını öğrenerek, yapay zeka çözümlerinizin çoklu veri türlerini işleme ve anlama yeteneklerini geliştirmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b18.md"
+  },
+  {
+    "slug": "ai-engineer-bolum19",
+    "title": "Bölüm 19: Development Tools",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde geliştirme araçlarını derinlemesine keşfedin. Bu blog serisinin on dokuzuncu bölümünde, AI projelerinizde kullanabileceğiniz popüler geliştirme araçlarını, platformları ve kütüphaneleri öğrenerek, yapay zeka çözümlerinizin geliştirme süreçlerini hızlandırmayı ve iyileştirmeyi öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b19.md"
+  },
+  {
+    "slug": "ai-engineer-bolum20",
+    "title": "Bölüm 20: Modeli Üretimden Stratejiye Taşımak",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/ai_engineer.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "AI Engineer",
+    "summary": "Yapay zeka mühendisliğinde modeli üretimden stratejiye taşıma süreçlerini derinlemesine keşfedin. Bu blog serisinin yirminci bölümünde, AI modellerinizi üretim ortamına geçirme stratejilerini, en iyi uygulamaları ve yönetim tekniklerini öğrenerek, yapay zeka çözümlerinizin iş hedeflerinize ulaşmasını sağlamayı öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/ai-engineer/b20.md"
   }
 ]
