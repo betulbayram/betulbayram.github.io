@@ -752,5 +752,31 @@
     "series": "Prompt Engineering",
     "summary": "Yapay zeka mühendisliğinde Prompt Engineering'de güvenilirliği artırma stratejilerini derinlemesine keşfedin. Bu blog serisinin dokuzuncu bölümünde, AI modellerinin tutarlı ve güvenilir çıktılar üretmesini sağlamak için kullanılan teknikleri öğrenerek, yapay zeka çözümlerinizin performansını ve doğruluğunu iyileştirin.",
     "markdownFile": "/blogs/markdown_blogs/prompt-engineering/b9.md"
+  },
+  {
+    "slug": "devops-bolum1",
+    "title": "Bölüm 1: DevOps Giriş",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/devops.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "DevOps",
+    "summary": "DevOps kavramına giriş yapın. Bu blog serisinin ilk bölümünde, DevOps'un ne olduğunu, neden önemli olduğunu öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/devops/b1.md"
+  },
+  {
+    "slug": "devops-bolum2",
+    "title": "Bölüm 2: İşletim Sistemleri",
+    "author": "Betül Bayram",
+    "publishDate": "Nov , 2025",
+    "coverImage": "/img/blog/covers/devops.png",
+    "tags": [
+      { "name": "AI", "filterClass": "ai" }
+    ],
+    "series": "DevOps",
+    "summary": "İşletim sistemlerini keşfedin. Bu blog serisinin ikinci bölümünde, farklı işletim sistemlerini ve DevOps'taki rollerini öğrenin.",
+    "markdownFile": "/blogs/markdown_blogs/devops/b2.md"
   }
 ]
