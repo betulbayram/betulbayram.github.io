@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Generative AI: Prompt Engineering Basics",
+    "provider": "Coursera",
+    "image": "img/certification/generative_ai_prompt_engineering_basics.png",
+    "link": "https://coursera.org/share/abc5ed6416cec467fc34ff45213d2319"
+  },
+  {
+    "id": 2,
+    "title": "Generative AI: Introduction and Applications",
+    "provider": "Coursera",
+    "image": "img/certification/generative_ai_introduction_and_applications.png",
+    "link": "https://coursera.org/share/3579fc1d8b43585a8f5551ad9d991933"
+  },
+  {
+    "id": 3,
+    "title": "Introduction to Software Engineering",
+    "provider": "Coursera",
+    "image": "img/certification/introduction_to_software_engineering.png",
+    "link": "https://coursera.org/share/0bbff12323ed86b8c64e33b43a4f98da"
+  },
+  {
+    "id": 4,
+    "title": "Introduction to Artificial Intelligence",
+    "provider": "Coursera",
+    "image": "img/certification/introduction_to_artificial_intelligence.png",
+    "link": "https://coursera.org/share/f1ca514302571d8936c891ff6d615c2c"
+  }
+]

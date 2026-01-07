@@ -2887,3 +2887,122 @@ ol {
     right: -110%; /* Tamamen çıktığından emin ol */
   }
 }
+
+/*---------------------
+  Certifications
+-----------------------*/
+.certifications {
+  background: #100028;
+}
+
+.certification__item {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+  text-decoration: none;
+}
+
+.certification__item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 40px rgba(0, 191, 231, 0.25);
+}
+
+.certification__item:hover .certification__overlay {
+  opacity: 1;
+}
+
+.certification__item:hover .certification__img img {
+  transform: scale(1.05);
+}
+
+.certification__img {
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.certification__img img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.certification__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.95) 0%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 191, 231, 0.2) 100%
+  );
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.certification__info {
+  text-align: center;
+  color: #ffffff;
+}
+
+.certification__info h5 {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Play", sans-serif;
+  margin-bottom: 8px;
+  text-transform: none;
+}
+
+.certification__info span {
+  color: #00bfe7;
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 1px;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.certification__info i {
+  color: #ffffff;
+  font-size: 16px;
+  background: rgba(0, 191, 231, 0.3);
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.certification__item:hover .certification__info i {
+  background: #00bfe7;
+  transform: scale(1.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .certification__item {
+    margin-bottom: 20px;
+  }
+  
+  .certification__info h5 {
+    font-size: 16px;
+  }
+  
+  .certification__overlay {
+    padding: 20px;
+  }
+}
