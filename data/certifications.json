@@ -1,16 +1,44 @@
 [
   {
     "id": 1,
-    "title": "Generative AI: Prompt Engineering Basics",
+    "title": "IBM AI Engineering Specialization",
     "provider": "Coursera",
-    "image": "img/certification/IBMAIDeveloper.png",
-    "link": "https://coursera.org/share/769e1d6df5c9b714af2018c123325e52"
+    "image": "img/certification/IBMAIEngineering.png",
+    "link": "https://coursera.org/share/b64dcf9c3360645cb2d8bce5158deafa"
   },
   {
     "id": 2,
-    "title": "Generative AI: Introduction and Applications",
+    "title": "AWS Cloud Technical Essentials",
+    "provider": "Coursera",
+    "image": "img/certification/AWSCloudTechnicalEssentials.png",
+    "link": "https://coursera.org/share/09ab6ca6190387676a7559dc38457be6"
+  },
+  {
+    "id": 3,
+    "title": "IBM RAG and Agentic AI Specialization",
+    "provider": "Coursera",
+    "image": "img/certification/IBMRAGandAgenticAI.png",
+    "link": "https://coursera.org/share/769e1d6df5c9b714af2018c123325e52"
+  },
+  {
+    "id": 4,
+    "title": "IBM Generative AI Engineering Specialization",
     "provider": "Coursera",
     "image": "img/certification/IBMGenerativeAIEngineering.png",
-    "link": "https://coursera.org/share/ce282139c3e53cb9d900c767b953c066"
+    "link": "https://coursera.org/share/c33269558358806fdaf0b529cc670e23"
+  },
+  {
+    "id": 5,
+    "title": "IBM AI Developer Specialization",
+    "provider": "Coursera",
+    "image": "img/certification/IBMAIDeveloper.png",
+    "link": "https://coursera.org/share/9aecb7266b6fe1e30d9717835c385646"
+  },
+  {
+    "id": 6,
+    "title": "IBM Deep Learning Specialization",
+    "provider": "Coursera",
+    "image": "img/certification/IBMDeepLearning.png",
+    "link": "https://coursera.org/share/a1dd45a171720ab52c6d13045c9da3ec"
   }
 ]
