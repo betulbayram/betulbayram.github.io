@@ -1,5 +1,19 @@
 [
   {
+    "slug": "guardllm-acik-kaynak-llm-guvenlik-katmani",
+    "title": "GuardLLM: Açık Kaynak LLM Güvenlik Katmanı",
+    "author": "Betül Bayram",
+    "publishDate": "Jul, 2026",
+    "coverImage": "/img/blog/covers/guardllm.png",
+    "tags": [
+      { "name": "AI Security", "filterClass": "ai_security" },
+      { "name": "LLM", "filterClass": "llm" },
+      { "name": "Açık Kaynak", "filterClass": "acik_kaynak" }
+    ],
+    "summary": "LLM uygulamalarına tek satırla güvenlik ekleyen açık kaynak bir katman: prompt injection, jailbreak, hallucination ve toxicity tespiti, birinci sınıf Türkçe PII ve KVKK uyumluluk desteğiyle. Aracı neden ve nasıl yazdığımı, benchmark sonuçlarını ve FastAPI/LangChain entegrasyonlarını anlatıyorum.",
+    "markdownFile": "/blogs/markdown_blogs/guardllm-acik-kaynak-llm-guvenlik-katmani.md"
+  },
+  {
     "slug": "miniconda-kurulum-rehberi",
     "title": "Miniconda Kurulum",
     "author": "Betül Bayram",
