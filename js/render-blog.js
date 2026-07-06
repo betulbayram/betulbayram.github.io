@@ -65,3 +65,4 @@ function renderPage(postData, markdownText) {
     tagsContainer.appendChild(tagElement);
   });
 }
+
