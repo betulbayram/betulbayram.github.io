@@ -1,5 +1,20 @@
 [
   {
+    "slug": "secllm-tr-turkce-siber-guvenlik-llm",
+    "title": "SecLLM-TR: Türkçe Siber Güvenlik için Bir LLM'i Fine-Tune Ettim",
+    "author": "Betül Bayram",
+    "publishDate": "Jul, 2026",
+    "coverImage": "/img/blog/covers/secllm_tr.png",
+    "tags": [
+      { "name": "AI Security", "filterClass": "ai_security" },
+      { "name": "LLM", "filterClass": "llm" },
+      { "name": "Fine-Tuning", "filterClass": "fine_tuning" },
+      { "name": "Açık Kaynak", "filterClass": "acik_kaynak" }
+    ],
+    "summary": "Mistral 7B'yi QLoRA ile fine-tune ederek siber güvenlik alanında Türkçe konuşan açık kaynak bir dil modeli olan SecLLM-TR'yi nasıl inşa ettiğimi anlatıyorum: CVE/NVD ve MITRE ATT&CK verilerinden dataset üretimi, RTX 3090'da QLoRA eğitimi, base vs fine-tuned karşılaştırması ve Hugging Face ZeroGPU üzerinde canlı demo yayını.",
+    "markdownFile": "/blogs/markdown_blogs/secllm-tr-turkce-siber-guvenlik-llm.md"
+  },
+  {
     "slug": "guardllm-acik-kaynak-llm-guvenlik-katmani",
     "title": "GuardLLM: Açık Kaynak LLM Güvenlik Katmanı",
     "author": "Betül Bayram",
